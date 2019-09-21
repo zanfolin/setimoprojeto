@@ -2,19 +2,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Objetivo
 
-Deixar os dados persistentes a partir do json-server
+Dividir em páginas as ações do de Listar(Dashboard), Cadastrar e Excluir
 
 ## Data criação
 
-02/09/2019
+21/09/2019
 
 ## Implementação
 
-[X] Criar o servidor json-server dentro da pasta backend (pasta ./backend/)
-[X] Modificar as interfaces para consumir o backend (inclusão e exclusão)
-[X] Modificado de index -> id na formatação da tabela do bootstrap
+[ ] Criar o dashboard com paginação e manter centralizado
+[ ] Criar Cadastro, Exclusão e Alteração
 
 ## Observações
 
-Executar o json-server e o frontend
-A paginação do bootstrap está dando erro
+Criado o script "server", assim pode-se rodar "npm run server" na pasta base
