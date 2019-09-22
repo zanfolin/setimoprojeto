@@ -81,7 +81,7 @@ export default class main extends Component {
                             <th scope="row">{item.id}</th>
                             <td>{item.tarefa}</td>
                             <td className="text-right">
-                                <Button variant="info">
+                                <Button variant="info" href={`/alterar/${item.id}`}>
                                     Informação
                                 </Button>
                             </td>

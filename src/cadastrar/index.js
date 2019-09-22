@@ -15,20 +15,6 @@ export default class main extends Component {
 
     }
 
-    componentDidMount() {
-
-    }
-
-    atualizaLista() {
-        /*let url = "http://localhost:3001/lista";
-
-        fetch(url)
-        .then(res => res.json())
-        .then((data) => {
-            this.setState( {lista : data})
-        })*/
-    }
-
     validaFormulario(e) {
         e.preventDefault();
 
@@ -60,6 +46,9 @@ export default class main extends Component {
           }
           return fetch('http://localhost:3001/lista', options)
             .then((response) => response.json)
+            .then(()=>{
+                this.props.history.push('/');
+            }) 
     }
 
   render() {
@@ -79,7 +68,10 @@ export default class main extends Component {
                 <div className="form-group mx-sm-3 mb-2">
                     <Button type="submit">
                         Adicionar Lista
-                    </Button>  
+                    </Button>
+                    <Button href="/" variant="info" >
+                        Voltar
+                    </Button>   
                </div>
                 <br />
             </form>

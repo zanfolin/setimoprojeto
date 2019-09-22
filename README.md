@@ -10,8 +10,8 @@ Dividir em páginas as ações do de Listar(Dashboard), Cadastrar e Excluir
 
 ## Implementação
 
-[ ] Criar o dashboard com paginação e manter centralizado
-[ ] Criar Cadastro, Exclusão e Alteração
+[X] Criar o dashboard com paginação e manter centralizado
+[X] Criar Cadastro, Exclusão e Alteração
 
 ## Observações
 

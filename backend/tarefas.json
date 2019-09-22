@@ -1,8 +1,8 @@
 {
   "lista": [
     {
-      "id": 1567282581243,
-      "tarefa": "Tarefa 1"
+      "tarefa": "Tarefa 1",
+      "id": 1567282581243
     },
     {
       "id": 1567282583026,
@@ -17,8 +17,8 @@
       "tarefa": "Tarefa 4"
     },
     {
-      "id": 1567282646910,
-      "tarefa": "Tarefa 7"
+      "tarefa": "Tarefa 7",
+      "id": 1567282646910
     },
     {
       "id": 1567282649294,
@@ -85,12 +85,8 @@
       "tarefa": "Tarefa 20"
     },
     {
-      "id": 1569073143762,
-      "tarefa": "a"
-    },
-    {
-      "id": 1569073265136,
-      "tarefa": "Tarefa 20 - Modo Novo"
+      "tarefa": "Tarefa 20 - Alterado",
+      "id": 1569073265136
     }
   ]
 }
